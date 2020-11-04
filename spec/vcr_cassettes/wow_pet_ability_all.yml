@@ -1,0 +1,490 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://eu.api.blizzard.com/data/wow/pet-ability/index?namespace=static-eu&locale=en_gb
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Authorization:
+      - Bearer abcdefghijklmnopqrstuvwxyz01234567
+      Expect:
+      - ''
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Battlenet-Schema-Revision:
+      - '1'
+      Date:
+      - Wed, 04 Nov 2020 20:45:46 GMT
+      Server:
+      - Apache-Coyote/1.1
+      Last-Modified:
+      - Wed, 4 Nov 2020 04:46:33 GMT
+      Battlenet-Namespace:
+      - static-9.0.1_36072-eu
+      vary:
+      - accept-encoding
+      Cache-Control:
+      - public, max-age=86400
+      Battlenet-Schema:
+      - pet-ability
+      content-type:
+      - application/json;charset=UTF-8
+      transfer-encoding:
+      - chunked
+      x-trace-traceid:
+      - ed51fedb-4932-33c2-a38f-6864835836a3
+      x-trace-spanid:
+      - 16433367-6cac-77a0-47b4-fa165b31975b
+      x-trace-parentspanid:
+      - 16433367-6cac-7770-47b4-fa165b31975b
+      x-frame-options:
+      - SAMEORIGIN
+      X-Content-Type-Options:
+      - nosniff
+      connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"_links":{"self":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/?namespace=static-9.0.1_36072-eu"}},"abilities":[{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/110?namespace=static-9.0.1_36072-eu"},"name":"Bite","id":110},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/111?namespace=static-9.0.1_36072-eu"},"name":"Punch","id":111},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/112?namespace=static-9.0.1_36072-eu"},"name":"Peck","id":112},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/113?namespace=static-9.0.1_36072-eu"},"name":"Burn","id":113},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/114?namespace=static-9.0.1_36072-eu"},"name":"Beam","id":114},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/115?namespace=static-9.0.1_36072-eu"},"name":"Breath","id":115},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/116?namespace=static-9.0.1_36072-eu"},"name":"Zap","id":116},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/117?namespace=static-9.0.1_36072-eu"},"name":"Infected
+        Claw","id":117},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/118?namespace=static-9.0.1_36072-eu"},"name":"Water
+        Jet","id":118},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/119?namespace=static-9.0.1_36072-eu"},"name":"Scratch","id":119},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/120?namespace=static-9.0.1_36072-eu"},"name":"Howling
+        Blast","id":120},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/121?namespace=static-9.0.1_36072-eu"},"name":"Death
+        Coil","id":121},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/122?namespace=static-9.0.1_36072-eu"},"name":"Tail
+        Sweep","id":122},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/123?namespace=static-9.0.1_36072-eu"},"name":"Healing
+        Wave","id":123},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/124?namespace=static-9.0.1_36072-eu"},"name":"Rampage","id":124},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/152?namespace=static-9.0.1_36072-eu"},"name":"Poison
+        Fang","id":152},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/155?namespace=static-9.0.1_36072-eu"},"name":"Hiss","id":155},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/156?namespace=static-9.0.1_36072-eu"},"name":"Vicious
+        Fang","id":156},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/158?namespace=static-9.0.1_36072-eu"},"name":"Counterstrike","id":158},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/159?namespace=static-9.0.1_36072-eu"},"name":"Burrow","id":159},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/160?namespace=static-9.0.1_36072-eu"},"name":"Consume","id":160},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/162?namespace=static-9.0.1_36072-eu"},"name":"Adrenaline
+        Rush","id":162},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/163?namespace=static-9.0.1_36072-eu"},"name":"Stampede","id":163},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/165?namespace=static-9.0.1_36072-eu"},"name":"Crouch","id":165},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/167?namespace=static-9.0.1_36072-eu"},"name":"Nut
+        Barrage","id":167},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/168?namespace=static-9.0.1_36072-eu"},"name":"Healing
+        Flame","id":168},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/169?namespace=static-9.0.1_36072-eu"},"name":"Deep
+        Breath","id":169},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/170?namespace=static-9.0.1_36072-eu"},"name":"Lift-Off","id":170},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/172?namespace=static-9.0.1_36072-eu"},"name":"Scorched
+        Earth","id":172},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/173?namespace=static-9.0.1_36072-eu"},"name":"Cauterize","id":173},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/176?namespace=static-9.0.1_36072-eu"},"name":"Volcano","id":176},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/178?namespace=static-9.0.1_36072-eu"},"name":"Immolate","id":178},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/179?namespace=static-9.0.1_36072-eu"},"name":"Conflagrate","id":179},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/184?namespace=static-9.0.1_36072-eu"},"name":"Quills","id":184},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/186?namespace=static-9.0.1_36072-eu"},"name":"Reckless
+        Strike","id":186},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/188?namespace=static-9.0.1_36072-eu"},"name":"Accuracy","id":188},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/190?namespace=static-9.0.1_36072-eu"},"name":"Cyclone","id":190},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/193?namespace=static-9.0.1_36072-eu"},"name":"Flank","id":193},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/194?namespace=static-9.0.1_36072-eu"},"name":"Metabolic
+        Boost","id":194},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/197?namespace=static-9.0.1_36072-eu"},"name":"Adrenal
+        Glands","id":197},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/198?namespace=static-9.0.1_36072-eu"},"name":"Zergling
+        Rush","id":198},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/202?namespace=static-9.0.1_36072-eu"},"name":"Thrash","id":202},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/204?namespace=static-9.0.1_36072-eu"},"name":"Call
+        Lightning","id":204},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/206?namespace=static-9.0.1_36072-eu"},"name":"Call
+        Blizzard","id":206},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/208?namespace=static-9.0.1_36072-eu"},"name":"Supercharge","id":208},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/209?namespace=static-9.0.1_36072-eu"},"name":"Ion
+        Cannon","id":209},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/210?namespace=static-9.0.1_36072-eu"},"name":"Shadow
+        Slash","id":210},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/212?namespace=static-9.0.1_36072-eu"},"name":"Siphon
+        Life","id":212},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/214?namespace=static-9.0.1_36072-eu"},"name":"Death
+        and Decay","id":214},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/216?namespace=static-9.0.1_36072-eu"},"name":"Inner
+        Vision","id":216},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/218?namespace=static-9.0.1_36072-eu"},"name":"Curse
+        of Doom","id":218},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/219?namespace=static-9.0.1_36072-eu"},"name":"Jab","id":219},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/221?namespace=static-9.0.1_36072-eu"},"name":"Takedown","id":221},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/223?namespace=static-9.0.1_36072-eu"},"name":"Focus
+        Chi","id":223},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/225?namespace=static-9.0.1_36072-eu"},"name":"Staggered
+        Steps","id":225},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/226?namespace=static-9.0.1_36072-eu"},"name":"Fury
+        of 1,000 Fists","id":226},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/227?namespace=static-9.0.1_36072-eu"},"name":"Blackout
+        Kick","id":227},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/228?namespace=static-9.0.1_36072-eu"},"name":"Tongue
+        Lash","id":228},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/230?namespace=static-9.0.1_36072-eu"},"name":"Cleansing
+        Rain","id":230},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/232?namespace=static-9.0.1_36072-eu"},"name":"Swarm
+        of Flies","id":232},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/233?namespace=static-9.0.1_36072-eu"},"name":"Frog
+        Kiss","id":233},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/247?namespace=static-9.0.1_36072-eu"},"name":"Hibernate","id":247},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/249?namespace=static-9.0.1_36072-eu"},"name":"Grasp","id":249},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/250?namespace=static-9.0.1_36072-eu"},"name":"Spiderling
+        Swarm","id":250},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/252?namespace=static-9.0.1_36072-eu"},"name":"Uncanny
+        Luck","id":252},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/253?namespace=static-9.0.1_36072-eu"},"name":"Comeback","id":253},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/254?namespace=static-9.0.1_36072-eu"},"name":"Tranquility","id":254},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/256?namespace=static-9.0.1_36072-eu"},"name":"Call
+        Darkness","id":256},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/258?namespace=static-9.0.1_36072-eu"},"name":"Starfall","id":258},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/259?namespace=static-9.0.1_36072-eu"},"name":"Invisibility","id":259},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/263?namespace=static-9.0.1_36072-eu"},"name":"Crystal
+        Overload","id":263},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/268?namespace=static-9.0.1_36072-eu"},"name":"Photosynthesis","id":268},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/270?namespace=static-9.0.1_36072-eu"},"name":"Glowing
+        Toxin","id":270},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/273?namespace=static-9.0.1_36072-eu"},"name":"Wish","id":273},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/276?namespace=static-9.0.1_36072-eu"},"name":"Swallow
+        You Whole","id":276},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/277?namespace=static-9.0.1_36072-eu"},"name":"Life
+        Exchange","id":277},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/278?namespace=static-9.0.1_36072-eu"},"name":"Repair","id":278},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/279?namespace=static-9.0.1_36072-eu"},"name":"Heartbroken","id":279},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/282?namespace=static-9.0.1_36072-eu"},"name":"Explode","id":282},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/283?namespace=static-9.0.1_36072-eu"},"name":"Survival","id":283},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/293?namespace=static-9.0.1_36072-eu"},"name":"Launch
+        Rocket","id":293},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/297?namespace=static-9.0.1_36072-eu"},"name":"Pump","id":297},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/298?namespace=static-9.0.1_36072-eu"},"name":"Inspiring
+        Song","id":298},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/299?namespace=static-9.0.1_36072-eu"},"name":"Arcane
+        Explosion","id":299},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/301?namespace=static-9.0.1_36072-eu"},"name":"Lock-On","id":301},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/303?namespace=static-9.0.1_36072-eu"},"name":"Plant","id":303},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/305?namespace=static-9.0.1_36072-eu"},"name":"Exposed
+        Wounds","id":305},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/307?namespace=static-9.0.1_36072-eu"},"name":"Kick","id":307},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/308?namespace=static-9.0.1_36072-eu"},"name":"Counterspell","id":308},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/310?namespace=static-9.0.1_36072-eu"},"name":"Shell
+        Shield","id":310},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/312?namespace=static-9.0.1_36072-eu"},"name":"Dodge","id":312},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/314?namespace=static-9.0.1_36072-eu"},"name":"Mangle","id":314},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/315?namespace=static-9.0.1_36072-eu"},"name":"Spiked
+        Skin","id":315},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/318?namespace=static-9.0.1_36072-eu"},"name":"Thorns","id":318},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/319?namespace=static-9.0.1_36072-eu"},"name":"Magma
+        Wave","id":319},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/321?namespace=static-9.0.1_36072-eu"},"name":"Unholy
+        Ascension","id":321},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/323?namespace=static-9.0.1_36072-eu"},"name":"Gravity","id":323},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/325?namespace=static-9.0.1_36072-eu"},"name":"Beaver
+        Dam","id":325},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/330?namespace=static-9.0.1_36072-eu"},"name":"Sons
+        of the Flame","id":330},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/334?namespace=static-9.0.1_36072-eu"},"name":"Decoy","id":334},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/339?namespace=static-9.0.1_36072-eu"},"name":"Sticky
+        Web","id":339},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/345?namespace=static-9.0.1_36072-eu"},"name":"Maul","id":345},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/347?namespace=static-9.0.1_36072-eu"},"name":"Roar","id":347},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/348?namespace=static-9.0.1_36072-eu"},"name":"Bash","id":348},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/349?namespace=static-9.0.1_36072-eu"},"name":"Smash","id":349},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/350?namespace=static-9.0.1_36072-eu"},"name":"Clobber","id":350},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/352?namespace=static-9.0.1_36072-eu"},"name":"Banana
+        Barrage","id":352},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/354?namespace=static-9.0.1_36072-eu"},"name":"Barrel
+        Toss","id":354},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/355?namespace=static-9.0.1_36072-eu"},"name":"Triple
+        Snap","id":355},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/356?namespace=static-9.0.1_36072-eu"},"name":"Snap","id":356},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/357?namespace=static-9.0.1_36072-eu"},"name":"Screech","id":357},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/359?namespace=static-9.0.1_36072-eu"},"name":"Sting","id":359},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/360?namespace=static-9.0.1_36072-eu"},"name":"Flurry","id":360},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/362?namespace=static-9.0.1_36072-eu"},"name":"Howl","id":362},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/364?namespace=static-9.0.1_36072-eu"},"name":"Leap","id":364},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/366?namespace=static-9.0.1_36072-eu"},"name":"Dazzling
+        Dance","id":366},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/367?namespace=static-9.0.1_36072-eu"},"name":"Chomp","id":367},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/369?namespace=static-9.0.1_36072-eu"},"name":"Acidic
+        Goo","id":369},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/371?namespace=static-9.0.1_36072-eu"},"name":"Sticky
+        Goo","id":371},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/375?namespace=static-9.0.1_36072-eu"},"name":"Trumpet
+        Strike","id":375},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/376?namespace=static-9.0.1_36072-eu"},"name":"Headbutt","id":376},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/377?namespace=static-9.0.1_36072-eu"},"name":"Trample","id":377},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/378?namespace=static-9.0.1_36072-eu"},"name":"Strike","id":378},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/380?namespace=static-9.0.1_36072-eu"},"name":"Poison
+        Spit","id":380},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/382?namespace=static-9.0.1_36072-eu"},"name":"Brittle
+        Webbing","id":382},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/383?namespace=static-9.0.1_36072-eu"},"name":"Leech
+        Life","id":383},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/384?namespace=static-9.0.1_36072-eu"},"name":"Metal
+        Fist","id":384},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/386?namespace=static-9.0.1_36072-eu"},"name":"XE-321
+        Boombot","id":386},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/387?namespace=static-9.0.1_36072-eu"},"name":"Tympanic
+        Tantrum","id":387},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/389?namespace=static-9.0.1_36072-eu"},"name":"Overtune","id":389},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/390?namespace=static-9.0.1_36072-eu"},"name":"Demolish","id":390},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/392?namespace=static-9.0.1_36072-eu"},"name":"Extra
+        Plating","id":392},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/393?namespace=static-9.0.1_36072-eu"},"name":"Shadowflame","id":393},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/394?namespace=static-9.0.1_36072-eu"},"name":"Lash","id":394},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/396?namespace=static-9.0.1_36072-eu"},"name":"Soothing
+        Mists","id":396},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/398?namespace=static-9.0.1_36072-eu"},"name":"Poison
+        Lash","id":398},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/400?namespace=static-9.0.1_36072-eu"},"name":"Entangling
+        Roots","id":400},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/402?namespace=static-9.0.1_36072-eu"},"name":"Stun
+        Seed","id":402},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/404?namespace=static-9.0.1_36072-eu"},"name":"Sunlight","id":404},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/405?namespace=static-9.0.1_36072-eu"},"name":"Early
+        Advantage","id":405},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/406?namespace=static-9.0.1_36072-eu"},"name":"Crush","id":406},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/407?namespace=static-9.0.1_36072-eu"},"name":"Meteor
+        Strike","id":407},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/409?namespace=static-9.0.1_36072-eu"},"name":"Immolation","id":409},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/411?namespace=static-9.0.1_36072-eu"},"name":"Woodchipper","id":411},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/412?namespace=static-9.0.1_36072-eu"},"name":"Gnaw","id":412},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/413?namespace=static-9.0.1_36072-eu"},"name":"Ice
+        Lance","id":413},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/414?namespace=static-9.0.1_36072-eu"},"name":"Frost
+        Nova","id":414},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/416?namespace=static-9.0.1_36072-eu"},"name":"Frost
+        Shock","id":416},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/418?namespace=static-9.0.1_36072-eu"},"name":"Geyser","id":418},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/419?namespace=static-9.0.1_36072-eu"},"name":"Tidal
+        Wave","id":419},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/420?namespace=static-9.0.1_36072-eu"},"name":"Slicing
+        Wind","id":420},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/421?namespace=static-9.0.1_36072-eu"},"name":"Arcane
+        Blast","id":421},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/422?namespace=static-9.0.1_36072-eu"},"name":"Shadow
+        Shock","id":422},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/423?namespace=static-9.0.1_36072-eu"},"name":"Blood
+        in the Water","id":423},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/424?namespace=static-9.0.1_36072-eu"},"name":"Tail
+        Slap","id":424},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/426?namespace=static-9.0.1_36072-eu"},"name":"Focus","id":426},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/429?namespace=static-9.0.1_36072-eu"},"name":"Claw","id":429},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/431?namespace=static-9.0.1_36072-eu"},"name":"Jadeskin","id":431},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/432?namespace=static-9.0.1_36072-eu"},"name":"Jade
+        Claw","id":432},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/433?namespace=static-9.0.1_36072-eu"},"name":"Jade
+        Barrier","id":433},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/436?namespace=static-9.0.1_36072-eu"},"name":"Stoneskin","id":436},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/437?namespace=static-9.0.1_36072-eu"},"name":"Onyx
+        Bite","id":437},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/440?namespace=static-9.0.1_36072-eu"},"name":"Evanescence","id":440},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/441?namespace=static-9.0.1_36072-eu"},"name":"Rend","id":441},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/442?namespace=static-9.0.1_36072-eu"},"name":"Spectral
+        Strike","id":442},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/444?namespace=static-9.0.1_36072-eu"},"name":"Prismatic
+        Barrier","id":444},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/445?namespace=static-9.0.1_36072-eu"},"name":"Ooze
+        Touch","id":445},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/446?namespace=static-9.0.1_36072-eu"},"name":"Corrosion","id":446},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/447?namespace=static-9.0.1_36072-eu"},"name":"Corrosion","id":447},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/448?namespace=static-9.0.1_36072-eu"},"name":"Creeping
+        Ooze","id":448},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/449?namespace=static-9.0.1_36072-eu"},"name":"Absorb","id":449},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/450?namespace=static-9.0.1_36072-eu"},"name":"Expunge","id":450},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/451?namespace=static-9.0.1_36072-eu"},"name":"Split","id":451},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/452?namespace=static-9.0.1_36072-eu"},"name":"Broom","id":452},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/453?namespace=static-9.0.1_36072-eu"},"name":"Sandstorm","id":453},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/455?namespace=static-9.0.1_36072-eu"},"name":"Batter","id":455},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/456?namespace=static-9.0.1_36072-eu"},"name":"Clean-Up","id":456},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/457?namespace=static-9.0.1_36072-eu"},"name":"Sweep","id":457},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/459?namespace=static-9.0.1_36072-eu"},"name":"Wind-Up","id":459},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/460?namespace=static-9.0.1_36072-eu"},"name":"Illuminate","id":460},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/461?namespace=static-9.0.1_36072-eu"},"name":"Light","id":461},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/463?namespace=static-9.0.1_36072-eu"},"name":"Flash","id":463},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/465?namespace=static-9.0.1_36072-eu"},"name":"Illusionary
+        Barrier","id":465},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/466?namespace=static-9.0.1_36072-eu"},"name":"Nether
+        Gate","id":466},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/468?namespace=static-9.0.1_36072-eu"},"name":"Agony","id":468},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/471?namespace=static-9.0.1_36072-eu"},"name":"Weakness","id":471},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/472?namespace=static-9.0.1_36072-eu"},"name":"Blast
+        of Hatred","id":472},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/473?namespace=static-9.0.1_36072-eu"},"name":"Focused
+        Beams","id":473},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/474?namespace=static-9.0.1_36072-eu"},"name":"Interrupting
+        Gaze","id":474},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/475?namespace=static-9.0.1_36072-eu"},"name":"Eyeblast","id":475},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/476?namespace=static-9.0.1_36072-eu"},"name":"Rot","id":476},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/477?namespace=static-9.0.1_36072-eu"},"name":"Snowball","id":477},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/478?namespace=static-9.0.1_36072-eu"},"name":"Magic
+        Hat","id":478},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/479?namespace=static-9.0.1_36072-eu"},"name":"Ice
+        Barrier","id":479},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/481?namespace=static-9.0.1_36072-eu"},"name":"Deep
+        Freeze","id":481},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/482?namespace=static-9.0.1_36072-eu"},"name":"Laser","id":482},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/483?namespace=static-9.0.1_36072-eu"},"name":"Psychic
+        Blast","id":483},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/484?namespace=static-9.0.1_36072-eu"},"name":"Feedback","id":484},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/486?namespace=static-9.0.1_36072-eu"},"name":"Drain
+        Power","id":486},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/488?namespace=static-9.0.1_36072-eu"},"name":"Amplify
+        Magic","id":488},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/489?namespace=static-9.0.1_36072-eu"},"name":"Mana
+        Surge","id":489},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/490?namespace=static-9.0.1_36072-eu"},"name":"Deflection","id":490},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/492?namespace=static-9.0.1_36072-eu"},"name":"Rake","id":492},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/493?namespace=static-9.0.1_36072-eu"},"name":"Hoof","id":493},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/497?namespace=static-9.0.1_36072-eu"},"name":"Soothe","id":497},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/499?namespace=static-9.0.1_36072-eu"},"name":"Diseased
+        Bite","id":499},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/501?namespace=static-9.0.1_36072-eu"},"name":"Flame
+        Breath","id":501},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/503?namespace=static-9.0.1_36072-eu"},"name":"Flamethrower","id":503},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/504?namespace=static-9.0.1_36072-eu"},"name":"Alpha
+        Strike","id":504},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/506?namespace=static-9.0.1_36072-eu"},"name":"Cocoon
+        Strike","id":506},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/507?namespace=static-9.0.1_36072-eu"},"name":"Moth
+        Balls","id":507},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/508?namespace=static-9.0.1_36072-eu"},"name":"Moth
+        Dust","id":508},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/509?namespace=static-9.0.1_36072-eu"},"name":"Surge","id":509},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/511?namespace=static-9.0.1_36072-eu"},"name":"Renewing
+        Mists","id":511},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/513?namespace=static-9.0.1_36072-eu"},"name":"Whirlpool","id":513},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/514?namespace=static-9.0.1_36072-eu"},"name":"Wild
+        Winds","id":514},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/515?namespace=static-9.0.1_36072-eu"},"name":"Flyby","id":515},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/517?namespace=static-9.0.1_36072-eu"},"name":"Nocturnal
+        Strike","id":517},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/518?namespace=static-9.0.1_36072-eu"},"name":"Predatory
+        Strike","id":518},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/519?namespace=static-9.0.1_36072-eu"},"name":"Apocalypse","id":519},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/521?namespace=static-9.0.1_36072-eu"},"name":"Hawk
+        Eye","id":521},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/522?namespace=static-9.0.1_36072-eu"},"name":"Nevermore","id":522},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/524?namespace=static-9.0.1_36072-eu"},"name":"Squawk","id":524},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/525?namespace=static-9.0.1_36072-eu"},"name":"Emerald
+        Bite","id":525},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/527?namespace=static-9.0.1_36072-eu"},"name":"Stench","id":527},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/528?namespace=static-9.0.1_36072-eu"},"name":"Frost
+        Spit","id":528},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/529?namespace=static-9.0.1_36072-eu"},"name":"Belly
+        Slide","id":529},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/532?namespace=static-9.0.1_36072-eu"},"name":"Body
+        Slam","id":532},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/533?namespace=static-9.0.1_36072-eu"},"name":"Rebuild","id":533},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/535?namespace=static-9.0.1_36072-eu"},"name":"Pounce","id":535},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/536?namespace=static-9.0.1_36072-eu"},"name":"Prowl","id":536},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/538?namespace=static-9.0.1_36072-eu"},"name":"Devour","id":538},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/539?namespace=static-9.0.1_36072-eu"},"name":"Bleat","id":539},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/541?namespace=static-9.0.1_36072-eu"},"name":"Chew","id":541},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/563?namespace=static-9.0.1_36072-eu"},"name":"Quick
+        Attack","id":563},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/564?namespace=static-9.0.1_36072-eu"},"name":"Dive","id":564},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/566?namespace=static-9.0.1_36072-eu"},"name":"Powerball","id":566},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/567?namespace=static-9.0.1_36072-eu"},"name":"Rush","id":567},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/568?namespace=static-9.0.1_36072-eu"},"name":"Feign
+        Death","id":568},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/569?namespace=static-9.0.1_36072-eu"},"name":"Crystal
+        Prison","id":569},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/571?namespace=static-9.0.1_36072-eu"},"name":"Horn
+        Attack","id":571},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/572?namespace=static-9.0.1_36072-eu"},"name":"Mudslide","id":572},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/573?namespace=static-9.0.1_36072-eu"},"name":"Nature''s
+        Touch","id":573},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/574?namespace=static-9.0.1_36072-eu"},"name":"Nature''s
+        Ward","id":574},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/575?namespace=static-9.0.1_36072-eu"},"name":"Slippery
+        Ice","id":575},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/576?namespace=static-9.0.1_36072-eu"},"name":"Perk
+        Up","id":576},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/578?namespace=static-9.0.1_36072-eu"},"name":"Buried
+        Treasure","id":578},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/579?namespace=static-9.0.1_36072-eu"},"name":"Gobble
+        Strike","id":579},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/580?namespace=static-9.0.1_36072-eu"},"name":"Food
+        Coma","id":580},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/581?namespace=static-9.0.1_36072-eu"},"name":"Flock","id":581},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/586?namespace=static-9.0.1_36072-eu"},"name":"Gift
+        of Winter''s Veil","id":586},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/588?namespace=static-9.0.1_36072-eu"},"name":"Devastate","id":588},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/589?namespace=static-9.0.1_36072-eu"},"name":"Arcane
+        Storm","id":589},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/592?namespace=static-9.0.1_36072-eu"},"name":"Wild
+        Magic","id":592},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/593?namespace=static-9.0.1_36072-eu"},"name":"Surge
+        of Power","id":593},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/594?namespace=static-9.0.1_36072-eu"},"name":"Sleeping
+        Gas","id":594},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/595?namespace=static-9.0.1_36072-eu"},"name":"Moonfire","id":595},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/597?namespace=static-9.0.1_36072-eu"},"name":"Emerald
+        Presence","id":597},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/598?namespace=static-9.0.1_36072-eu"},"name":"Emerald
+        Dream","id":598},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/600?namespace=static-9.0.1_36072-eu"},"name":"Time
+        Stop","id":600},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/606?namespace=static-9.0.1_36072-eu"},"name":"Elementium
+        Bolt","id":606},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/607?namespace=static-9.0.1_36072-eu"},"name":"Cataclysm","id":607},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/608?namespace=static-9.0.1_36072-eu"},"name":"Nether
+        Blast","id":608},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/609?namespace=static-9.0.1_36072-eu"},"name":"Instability","id":609},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/611?namespace=static-9.0.1_36072-eu"},"name":"Ancient
+        Blessing","id":611},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/612?namespace=static-9.0.1_36072-eu"},"name":"Proto-Strike","id":612},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/614?namespace=static-9.0.1_36072-eu"},"name":"Competitive
+        Spirit","id":614},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/616?namespace=static-9.0.1_36072-eu"},"name":"Blinkstrike","id":616},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/617?namespace=static-9.0.1_36072-eu"},"name":"Spark","id":617},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/621?namespace=static-9.0.1_36072-eu"},"name":"Stone
+        Rush","id":621},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/624?namespace=static-9.0.1_36072-eu"},"name":"Ice
+        Tomb","id":624},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/625?namespace=static-9.0.1_36072-eu"},"name":"Ice
+        Spike","id":625},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/626?namespace=static-9.0.1_36072-eu"},"name":"Skitter","id":626},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/628?namespace=static-9.0.1_36072-eu"},"name":"Rock
+        Barrage","id":628},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/630?namespace=static-9.0.1_36072-eu"},"name":"Poisoned
+        Branch","id":630},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/631?namespace=static-9.0.1_36072-eu"},"name":"Super
+        Sticky Goo","id":631},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/632?namespace=static-9.0.1_36072-eu"},"name":"Confusing
+        Sting","id":632},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/634?namespace=static-9.0.1_36072-eu"},"name":"Minefield","id":634},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/636?namespace=static-9.0.1_36072-eu"},"name":"Sticky
+        Grenade","id":636},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/640?namespace=static-9.0.1_36072-eu"},"name":"Toxic
+        Smoke","id":640},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/642?namespace=static-9.0.1_36072-eu"},"name":"Egg
+        Barrage","id":642},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/644?namespace=static-9.0.1_36072-eu"},"name":"Quake","id":644},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/645?namespace=static-9.0.1_36072-eu"},"name":"Launch","id":645},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/646?namespace=static-9.0.1_36072-eu"},"name":"Shock
+        and Awe","id":646},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/647?namespace=static-9.0.1_36072-eu"},"name":"Bombing
+        Run","id":647},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/648?namespace=static-9.0.1_36072-eu"},"name":"Bone
+        Bite","id":648},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/649?namespace=static-9.0.1_36072-eu"},"name":"BONESTORM","id":649},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/650?namespace=static-9.0.1_36072-eu"},"name":"Bone
+        Prison","id":650},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/652?namespace=static-9.0.1_36072-eu"},"name":"Haunt","id":652},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/654?namespace=static-9.0.1_36072-eu"},"name":"Ghostly
+        Bite","id":654},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/655?namespace=static-9.0.1_36072-eu"},"name":"Creepy
+        Chomp","id":655},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/657?namespace=static-9.0.1_36072-eu"},"name":"Plagued
+        Blood","id":657},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/663?namespace=static-9.0.1_36072-eu"},"name":"Corpse
+        Explosion","id":663},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/665?namespace=static-9.0.1_36072-eu"},"name":"Consume
+        Corpse","id":665},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/666?namespace=static-9.0.1_36072-eu"},"name":"Rabid
+        Strike","id":666},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/667?namespace=static-9.0.1_36072-eu"},"name":"Aged
+        Yolk","id":667},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/668?namespace=static-9.0.1_36072-eu"},"name":"Dreadful
+        Breath","id":668},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/669?namespace=static-9.0.1_36072-eu"},"name":"Backflip","id":669},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/670?namespace=static-9.0.1_36072-eu"},"name":"Snap
+        Trap","id":670},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/706?namespace=static-9.0.1_36072-eu"},"name":"Swarm","id":706},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/710?namespace=static-9.0.1_36072-eu"},"name":"Build
+        Turret","id":710},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/712?namespace=static-9.0.1_36072-eu"},"name":"Railgun","id":712},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/713?namespace=static-9.0.1_36072-eu"},"name":"Blitz","id":713},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/740?namespace=static-9.0.1_36072-eu"},"name":"Frenzyheart
+        Brew","id":740},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/741?namespace=static-9.0.1_36072-eu"},"name":"Whirlwind","id":741},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/743?namespace=static-9.0.1_36072-eu"},"name":"Creeping
+        Fungus","id":743},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/745?namespace=static-9.0.1_36072-eu"},"name":"Leech
+        Seed","id":745},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/746?namespace=static-9.0.1_36072-eu"},"name":"Spore
+        Shrooms","id":746},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/751?namespace=static-9.0.1_36072-eu"},"name":"Soul
+        Ward","id":751},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/752?namespace=static-9.0.1_36072-eu"},"name":"Soulrush","id":752},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/753?namespace=static-9.0.1_36072-eu"},"name":"Solar
+        Beam","id":753},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/754?namespace=static-9.0.1_36072-eu"},"name":"Screeching
+        Gears","id":754},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/756?namespace=static-9.0.1_36072-eu"},"name":"Acid
+        Touch","id":756},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/757?namespace=static-9.0.1_36072-eu"},"name":"Lucky
+        Dance","id":757},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/760?namespace=static-9.0.1_36072-eu"},"name":"Shield
+        Block","id":760},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/761?namespace=static-9.0.1_36072-eu"},"name":"Heroic
+        Leap","id":761},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/762?namespace=static-9.0.1_36072-eu"},"name":"Haymaker","id":762},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/763?namespace=static-9.0.1_36072-eu"},"name":"Sear
+        Magic","id":763},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/764?namespace=static-9.0.1_36072-eu"},"name":"Phase
+        Shift","id":764},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/765?namespace=static-9.0.1_36072-eu"},"name":"Holy
+        Sword","id":765},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/766?namespace=static-9.0.1_36072-eu"},"name":"Holy
+        Justice","id":766},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/767?namespace=static-9.0.1_36072-eu"},"name":"Holy
+        Charge","id":767},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/768?namespace=static-9.0.1_36072-eu"},"name":"Omnislash","id":768},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/769?namespace=static-9.0.1_36072-eu"},"name":"Surge
+        of Light","id":769},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/770?namespace=static-9.0.1_36072-eu"},"name":"Restoration","id":770},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/771?namespace=static-9.0.1_36072-eu"},"name":"Bow
+        Shot","id":771},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/772?namespace=static-9.0.1_36072-eu"},"name":"Lovestruck","id":772},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/773?namespace=static-9.0.1_36072-eu"},"name":"Shot
+        Through The Heart","id":773},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/774?namespace=static-9.0.1_36072-eu"},"name":"Rapid
+        Fire","id":774},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/775?namespace=static-9.0.1_36072-eu"},"name":"Perfumed
+        Arrow","id":775},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/776?namespace=static-9.0.1_36072-eu"},"name":"Love
+        Potion","id":776},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/777?namespace=static-9.0.1_36072-eu"},"name":"Missile","id":777},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/778?namespace=static-9.0.1_36072-eu"},"name":"Charge","id":778},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/779?namespace=static-9.0.1_36072-eu"},"name":"Thunderbolt","id":779},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/780?namespace=static-9.0.1_36072-eu"},"name":"Death
+        Grip","id":780},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/782?namespace=static-9.0.1_36072-eu"},"name":"Frost
+        Breath","id":782},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/784?namespace=static-9.0.1_36072-eu"},"name":"Shriek","id":784},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/786?namespace=static-9.0.1_36072-eu"},"name":"Blistering
+        Cold","id":786},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/788?namespace=static-9.0.1_36072-eu"},"name":"Gauss
+        Rifle","id":788},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/789?namespace=static-9.0.1_36072-eu"},"name":"U-238
+        Rounds","id":789},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/791?namespace=static-9.0.1_36072-eu"},"name":"Stimpack","id":791},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/792?namespace=static-9.0.1_36072-eu"},"name":"Darkflame","id":792},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/794?namespace=static-9.0.1_36072-eu"},"name":"Dark
+        Rebirth","id":794},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/800?namespace=static-9.0.1_36072-eu"},"name":"Impale","id":800},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/801?namespace=static-9.0.1_36072-eu"},"name":"Stone
+        Shot","id":801},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/802?namespace=static-9.0.1_36072-eu"},"name":"Ravage","id":802},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/803?namespace=static-9.0.1_36072-eu"},"name":"Rip","id":803},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/809?namespace=static-9.0.1_36072-eu"},"name":"Roll","id":809},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/811?namespace=static-9.0.1_36072-eu"},"name":"Magma
+        Trap","id":811},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/812?namespace=static-9.0.1_36072-eu"},"name":"Sulfuras
+        Smash","id":812},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/814?namespace=static-9.0.1_36072-eu"},"name":"Rupture","id":814},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/826?namespace=static-9.0.1_36072-eu"},"name":"Weakening
+        Blow","id":826},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/828?namespace=static-9.0.1_36072-eu"},"name":"Sons
+        of the Root","id":828},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/835?namespace=static-9.0.1_36072-eu"},"name":"Eggnog","id":835},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/836?namespace=static-9.0.1_36072-eu"},"name":"Baneling
+        Burst","id":836},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/838?namespace=static-9.0.1_36072-eu"},"name":"Centrifugal
+        Hooks","id":838},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/849?namespace=static-9.0.1_36072-eu"},"name":"Huge,
+        Sharp Teeth!","id":849},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/851?namespace=static-9.0.1_36072-eu"},"name":"Vicious
+        Streak","id":851},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/860?namespace=static-9.0.1_36072-eu"},"name":"Flamethrower","id":860},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/869?namespace=static-9.0.1_36072-eu"},"name":"Darkmoon
+        Curse","id":869},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/870?namespace=static-9.0.1_36072-eu"},"name":"Murder","id":870},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/901?namespace=static-9.0.1_36072-eu"},"name":"Fel
+        Immolate","id":901},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/905?namespace=static-9.0.1_36072-eu"},"name":"Cute
+        Face","id":905},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/906?namespace=static-9.0.1_36072-eu"},"name":"Lightning
+        Shield","id":906},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/908?namespace=static-9.0.1_36072-eu"},"name":"Jolt","id":908},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/909?namespace=static-9.0.1_36072-eu"},"name":"Paralyzing
+        Shock","id":909},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/910?namespace=static-9.0.1_36072-eu"},"name":"Sand
+        Bolt","id":910},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/912?namespace=static-9.0.1_36072-eu"},"name":"Quicksand","id":912},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/913?namespace=static-9.0.1_36072-eu"},"name":"Spectral
+        Spine","id":913},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/914?namespace=static-9.0.1_36072-eu"},"name":"Spirit
+        Spikes","id":914},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/916?namespace=static-9.0.1_36072-eu"},"name":"Haywire","id":916},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/917?namespace=static-9.0.1_36072-eu"},"name":"Bloodfang","id":917},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/919?namespace=static-9.0.1_36072-eu"},"name":"Black
+        Claw","id":919},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/920?namespace=static-9.0.1_36072-eu"},"name":"Primal
+        Cry","id":920},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/921?namespace=static-9.0.1_36072-eu"},"name":"Hunting
+        Party","id":921},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/922?namespace=static-9.0.1_36072-eu"},"name":"Healing
+        Stream","id":922},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/923?namespace=static-9.0.1_36072-eu"},"name":"Flux","id":923},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/929?namespace=static-9.0.1_36072-eu"},"name":"Slither","id":929},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/930?namespace=static-9.0.1_36072-eu"},"name":"Huge
+        Fang","id":930},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/932?namespace=static-9.0.1_36072-eu"},"name":"Croak","id":932},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/934?namespace=static-9.0.1_36072-eu"},"name":"Bubble","id":934},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/936?namespace=static-9.0.1_36072-eu"},"name":"Caw","id":936},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/937?namespace=static-9.0.1_36072-eu"},"name":"Siphon
+        Anima","id":937},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/938?namespace=static-9.0.1_36072-eu"},"name":"Interrupting
+        Jolt","id":938},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/939?namespace=static-9.0.1_36072-eu"},"name":"Touch
+        of the Animus","id":939},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/940?namespace=static-9.0.1_36072-eu"},"name":"Touch
+        of the Animus","id":940},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/941?namespace=static-9.0.1_36072-eu"},"name":"High
+        Fiber","id":941},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/942?namespace=static-9.0.1_36072-eu"},"name":"Frying
+        Pan","id":942},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/943?namespace=static-9.0.1_36072-eu"},"name":"Chop","id":943},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/945?namespace=static-9.0.1_36072-eu"},"name":"Heat
+        Up","id":945},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/957?namespace=static-9.0.1_36072-eu"},"name":"Evolution","id":957},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/958?namespace=static-9.0.1_36072-eu"},"name":"Trihorn
+        Charge","id":958},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/960?namespace=static-9.0.1_36072-eu"},"name":"Trihorn
+        Shield","id":960},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/962?namespace=static-9.0.1_36072-eu"},"name":"Ironbark","id":962},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/964?namespace=static-9.0.1_36072-eu"},"name":"Autumn
+        Breeze","id":964},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/974?namespace=static-9.0.1_36072-eu"},"name":"Spirit
+        Claws","id":974},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/975?namespace=static-9.0.1_36072-eu"},"name":"Logic","id":975},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/977?namespace=static-9.0.1_36072-eu"},"name":"Uncertainty","id":977},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/978?namespace=static-9.0.1_36072-eu"},"name":"Moon
+        Fang","id":978},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/979?namespace=static-9.0.1_36072-eu"},"name":"Moon
+        Tears","id":979},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/980?namespace=static-9.0.1_36072-eu"},"name":"Moon
+        Dance","id":980},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/983?namespace=static-9.0.1_36072-eu"},"name":"SMCKTHAT.EXE","id":983},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/985?namespace=static-9.0.1_36072-eu"},"name":"Make
+        it Rain","id":985},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/989?namespace=static-9.0.1_36072-eu"},"name":"Blingtron
+        Gift Package","id":989},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/996?namespace=static-9.0.1_36072-eu"},"name":"Lullaby","id":996},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/997?namespace=static-9.0.1_36072-eu"},"name":"Vengeance","id":997},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/998?namespace=static-9.0.1_36072-eu"},"name":"Ethereal","id":998},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1002?namespace=static-9.0.1_36072-eu"},"name":"Inflation","id":1002},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1004?namespace=static-9.0.1_36072-eu"},"name":"Gilded
+        Fist","id":1004},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1007?namespace=static-9.0.1_36072-eu"},"name":"Locust
+        Swarm","id":1007},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1008?namespace=static-9.0.1_36072-eu"},"name":"Brew
+        Bolt","id":1008},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1010?namespace=static-9.0.1_36072-eu"},"name":"Inebriate","id":1010},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1012?namespace=static-9.0.1_36072-eu"},"name":"Giant''s
+        Blood","id":1012},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1013?namespace=static-9.0.1_36072-eu"},"name":"Call
+        of Winter","id":1013},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1015?namespace=static-9.0.1_36072-eu"},"name":"Blinding
+        Powder","id":1015},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1016?namespace=static-9.0.1_36072-eu"},"name":"Feed","id":1016},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1019?namespace=static-9.0.1_36072-eu"},"name":"Niuzao''s
+        Charge","id":1019},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1020?namespace=static-9.0.1_36072-eu"},"name":"Lens
+        Flare","id":1020},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1021?namespace=static-9.0.1_36072-eu"},"name":"Phaser","id":1021},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1022?namespace=static-9.0.1_36072-eu"},"name":"Plot
+        Twist","id":1022},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1024?namespace=static-9.0.1_36072-eu"},"name":"Reboot","id":1024},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1025?namespace=static-9.0.1_36072-eu"},"name":"Armageddon","id":1025},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1026?namespace=static-9.0.1_36072-eu"},"name":"Amber
+        Prison","id":1026},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1027?namespace=static-9.0.1_36072-eu"},"name":"Fire
+        Quills","id":1027},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1029?namespace=static-9.0.1_36072-eu"},"name":"Dominance","id":1029},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1031?namespace=static-9.0.1_36072-eu"},"name":"Jadefire
+        Lightning","id":1031},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1032?namespace=static-9.0.1_36072-eu"},"name":"Celestial
+        Blessing","id":1032},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1035?namespace=static-9.0.1_36072-eu"},"name":"Spiritfire
+        Beam","id":1035},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1040?namespace=static-9.0.1_36072-eu"},"name":"Nimbus","id":1040},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1041?namespace=static-9.0.1_36072-eu"},"name":"Flame
+        Jet","id":1041},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1043?namespace=static-9.0.1_36072-eu"},"name":"Drain
+        Blood","id":1043},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1045?namespace=static-9.0.1_36072-eu"},"name":"Barkskin","id":1045},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1047?namespace=static-9.0.1_36072-eu"},"name":"Frolick","id":1047},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1049?namespace=static-9.0.1_36072-eu"},"name":"Blinding
+        Poison","id":1049},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1050?namespace=static-9.0.1_36072-eu"},"name":"Puncture
+        Wound","id":1050},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1051?namespace=static-9.0.1_36072-eu"},"name":"Acid
+        Rain","id":1051},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1052?namespace=static-9.0.1_36072-eu"},"name":"Tornado
+        Punch","id":1052},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1054?namespace=static-9.0.1_36072-eu"},"name":"Going
+        Bonkers!","id":1054},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1055?namespace=static-9.0.1_36072-eu"},"name":"Breath
+        of Sorrow","id":1055},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1056?namespace=static-9.0.1_36072-eu"},"name":"Seethe","id":1056},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1060?namespace=static-9.0.1_36072-eu"},"name":"Steam
+        Vent","id":1060},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1062?namespace=static-9.0.1_36072-eu"},"name":"Rain
+        Dance","id":1062},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1063?namespace=static-9.0.1_36072-eu"},"name":"Pheromones","id":1063},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1065?namespace=static-9.0.1_36072-eu"},"name":"Digest
+        Brains","id":1065},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1066?namespace=static-9.0.1_36072-eu"},"name":"Spiritfire
+        Bolt","id":1066},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1068?namespace=static-9.0.1_36072-eu"},"name":"Forboding
+        Curse","id":1068},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1070?namespace=static-9.0.1_36072-eu"},"name":"Skunky
+        Brew","id":1070},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1072?namespace=static-9.0.1_36072-eu"},"name":"Explosive
+        Brew","id":1072},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1073?namespace=static-9.0.1_36072-eu"},"name":"Spiny
+        Carapace","id":1073},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1076?namespace=static-9.0.1_36072-eu"},"name":"Greench''s
+        Gift","id":1076},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1078?namespace=static-9.0.1_36072-eu"},"name":"Bandage","id":1078},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1079?namespace=static-9.0.1_36072-eu"},"name":"Club","id":1079},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1080?namespace=static-9.0.1_36072-eu"},"name":"Booby-Trapped
+        Presents","id":1080},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1082?namespace=static-9.0.1_36072-eu"},"name":"Jade
+        Breath","id":1082},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1084?namespace=static-9.0.1_36072-eu"},"name":"Fade","id":1084},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1085?namespace=static-9.0.1_36072-eu"},"name":"Magic
+        Sword","id":1085},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1087?namespace=static-9.0.1_36072-eu"},"name":"Toxic
+        Skin","id":1087},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1091?namespace=static-9.0.1_36072-eu"},"name":"Bone
+        Barrage","id":1091},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1093?namespace=static-9.0.1_36072-eu"},"name":"Dead
+        Man''s Party","id":1093},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1094?namespace=static-9.0.1_36072-eu"},"name":"Macabre
+        Maraca","id":1094},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1095?namespace=static-9.0.1_36072-eu"},"name":"Horn
+        Gore","id":1095},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1099?namespace=static-9.0.1_36072-eu"},"name":"Punish","id":1099},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1100?namespace=static-9.0.1_36072-eu"},"name":"Blessed
+        Hammer","id":1100},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1101?namespace=static-9.0.1_36072-eu"},"name":"Shieldstorm","id":1101},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1103?namespace=static-9.0.1_36072-eu"},"name":"Righteous
+        Inspiration","id":1103},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1105?namespace=static-9.0.1_36072-eu"},"name":"Reflective
+        Shield","id":1105},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1106?namespace=static-9.0.1_36072-eu"},"name":"Falling
+        Murloc","id":1106},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1108?namespace=static-9.0.1_36072-eu"},"name":"Bark","id":1108},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1109?namespace=static-9.0.1_36072-eu"},"name":"The
+        Good Stuff","id":1109},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1110?namespace=static-9.0.1_36072-eu"},"name":"Avalanche","id":1110},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1112?namespace=static-9.0.1_36072-eu"},"name":"Tough
+        n'' Cuddly","id":1112},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1116?namespace=static-9.0.1_36072-eu"},"name":"Call
+        the Pack","id":1116},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1121?namespace=static-9.0.1_36072-eu"},"name":"Coin
+        Toss","id":1121},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1123?namespace=static-9.0.1_36072-eu"},"name":"Disruption","id":1123},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1125?namespace=static-9.0.1_36072-eu"},"name":"Portal","id":1125},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1223?namespace=static-9.0.1_36072-eu"},"name":"Vicious
+        Slice","id":1223},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1231?namespace=static-9.0.1_36072-eu"},"name":"Consume
+        Magic","id":1231},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1232?namespace=static-9.0.1_36072-eu"},"name":"Anzu''s
+        Blessing","id":1232},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1233?namespace=static-9.0.1_36072-eu"},"name":"Dark
+        Talon","id":1233},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1238?namespace=static-9.0.1_36072-eu"},"name":"Shadow
+        Talon","id":1238},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1273?namespace=static-9.0.1_36072-eu"},"name":"Cleave","id":1273},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1287?namespace=static-9.0.1_36072-eu"},"name":"Carpnado","id":1287},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1301?namespace=static-9.0.1_36072-eu"},"name":"Pig
+        Out","id":1301},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1334?namespace=static-9.0.1_36072-eu"},"name":"Plushie
+        Rush","id":1334},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1335?namespace=static-9.0.1_36072-eu"},"name":"Rawr!","id":1335},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1336?namespace=static-9.0.1_36072-eu"},"name":"Who''s
+        The Best Elekk In The Whole World?","id":1336},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1337?namespace=static-9.0.1_36072-eu"},"name":"Itchin''
+        for a Stitchin''","id":1337},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1343?namespace=static-9.0.1_36072-eu"},"name":"Fist
+        of the Forest","id":1343},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1344?namespace=static-9.0.1_36072-eu"},"name":"Refuge","id":1344},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1345?namespace=static-9.0.1_36072-eu"},"name":"Nap
+        Time","id":1345},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1347?namespace=static-9.0.1_36072-eu"},"name":"Cute
+        As A Button","id":1347},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1353?namespace=static-9.0.1_36072-eu"},"name":"Arcane
+        Slash","id":1353},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1354?namespace=static-9.0.1_36072-eu"},"name":"Puppies
+        of the Flame","id":1354},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1356?namespace=static-9.0.1_36072-eu"},"name":"Inferno
+        Herding","id":1356},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1357?namespace=static-9.0.1_36072-eu"},"name":"Superbark","id":1357},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1359?namespace=static-9.0.1_36072-eu"},"name":"Bark","id":1359},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1360?namespace=static-9.0.1_36072-eu"},"name":"Slow
+        and Steady","id":1360},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1369?namespace=static-9.0.1_36072-eu"},"name":"Barbed
+        Stinger","id":1369},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1370?namespace=static-9.0.1_36072-eu"},"name":"Savage
+        Talon","id":1370},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1371?namespace=static-9.0.1_36072-eu"},"name":"Sneak
+        Attack","id":1371},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1372?namespace=static-9.0.1_36072-eu"},"name":"Deep
+        Bite","id":1372},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1380?namespace=static-9.0.1_36072-eu"},"name":"Shell
+        Armor","id":1380},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1381?namespace=static-9.0.1_36072-eu"},"name":"Death
+        Bleat","id":1381},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1392?namespace=static-9.0.1_36072-eu"},"name":"Enrage","id":1392},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1397?namespace=static-9.0.1_36072-eu"},"name":"Haunting
+        Song","id":1397},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1398?namespace=static-9.0.1_36072-eu"},"name":"Feathered
+        Frenzy","id":1398},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1400?namespace=static-9.0.1_36072-eu"},"name":"Udder
+        Destruction","id":1400},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1401?namespace=static-9.0.1_36072-eu"},"name":"Where''s
+        the Beef?","id":1401},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1402?namespace=static-9.0.1_36072-eu"},"name":"Mother''s
+        Milk","id":1402},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1407?namespace=static-9.0.1_36072-eu"},"name":"Deep
+        Burn","id":1407},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1408?namespace=static-9.0.1_36072-eu"},"name":"Reforge","id":1408},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1410?namespace=static-9.0.1_36072-eu"},"name":"Gift
+        of the Naaru","id":1410},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1411?namespace=static-9.0.1_36072-eu"},"name":"Grave
+        Destruction","id":1411},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1412?namespace=static-9.0.1_36072-eu"},"name":"When
+        Elekks Fly","id":1412},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1438?namespace=static-9.0.1_36072-eu"},"name":"Mighty
+        Charge","id":1438},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1465?namespace=static-9.0.1_36072-eu"},"name":"Gargoyle
+        Strike","id":1465},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1466?namespace=static-9.0.1_36072-eu"},"name":"Stone
+        Form","id":1466},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1483?namespace=static-9.0.1_36072-eu"},"name":"Skull
+        Toss","id":1483},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1531?namespace=static-9.0.1_36072-eu"},"name":"Psionic
+        Shockwave","id":1531},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1532?namespace=static-9.0.1_36072-eu"},"name":"Psionic
+        Storm","id":1532},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1533?namespace=static-9.0.1_36072-eu"},"name":"Eye
+        Beam","id":1533},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1535?namespace=static-9.0.1_36072-eu"},"name":"Murkmorphosis","id":1535},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1536?namespace=static-9.0.1_36072-eu"},"name":"Arcane
+        Dash","id":1536},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1545?namespace=static-9.0.1_36072-eu"},"name":"Preen","id":1545},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1555?namespace=static-9.0.1_36072-eu"},"name":"Worst
+        Fear","id":1555},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1556?namespace=static-9.0.1_36072-eu"},"name":"Jar
+        of Smelly Liquid","id":1556},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1557?namespace=static-9.0.1_36072-eu"},"name":"Buuurp!","id":1557},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1559?namespace=static-9.0.1_36072-eu"},"name":"Paralyzing
+        Venom","id":1559},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1560?namespace=static-9.0.1_36072-eu"},"name":"Lumbering
+        Charge","id":1560},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1570?namespace=static-9.0.1_36072-eu"},"name":"Tentacle
+        Slap","id":1570},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1572?namespace=static-9.0.1_36072-eu"},"name":"Squeeze","id":1572},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1573?namespace=static-9.0.1_36072-eu"},"name":"I
+        Am Broot!","id":1573},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1578?namespace=static-9.0.1_36072-eu"},"name":"Spill
+        Hot Soup","id":1578},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1583?namespace=static-9.0.1_36072-eu"},"name":"Warning!","id":1583},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1585?namespace=static-9.0.1_36072-eu"},"name":"Alert!","id":1585},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1598?namespace=static-9.0.1_36072-eu"},"name":"Unstable
+        Shield","id":1598},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1625?namespace=static-9.0.1_36072-eu"},"name":"Tesla
+        Cannon","id":1625},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1626?namespace=static-9.0.1_36072-eu"},"name":"Primal
+        Rage","id":1626},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1627?namespace=static-9.0.1_36072-eu"},"name":"Barrier
+        Projector","id":1627},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1679?namespace=static-9.0.1_36072-eu"},"name":"Smoke
+        Bomb","id":1679},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1681?namespace=static-9.0.1_36072-eu"},"name":"Puppy
+        Parade","id":1681},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1682?namespace=static-9.0.1_36072-eu"},"name":"Holy
+        Strike","id":1682},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1717?namespace=static-9.0.1_36072-eu"},"name":"Discharge","id":1717},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1719?namespace=static-9.0.1_36072-eu"},"name":"Ban
+        Hammer","id":1719},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1720?namespace=static-9.0.1_36072-eu"},"name":"Overpowered","id":1720},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1722?namespace=static-9.0.1_36072-eu"},"name":"Queue
+        Dodge","id":1722},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1724?namespace=static-9.0.1_36072-eu"},"name":"Transmute:
+        Enemy to On Fire","id":1724},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1731?namespace=static-9.0.1_36072-eu"},"name":"Nightmare","id":1731},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1733?namespace=static-9.0.1_36072-eu"},"name":"Extra
+        Plating","id":1733},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1736?namespace=static-9.0.1_36072-eu"},"name":"For
+        Adventure!","id":1736},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1737?namespace=static-9.0.1_36072-eu"},"name":"Fish
+        Slap","id":1737},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1738?namespace=static-9.0.1_36072-eu"},"name":"Chaos
+        Nova","id":1738},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1740?namespace=static-9.0.1_36072-eu"},"name":"For
+        The Alliance!","id":1740},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1741?namespace=static-9.0.1_36072-eu"},"name":"For
+        The Horde!","id":1741},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1754?namespace=static-9.0.1_36072-eu"},"name":"Fire
+        Shield","id":1754},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1756?namespace=static-9.0.1_36072-eu"},"name":"Wing
+        Buffet","id":1756},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1758?namespace=static-9.0.1_36072-eu"},"name":"Ironskin","id":1758},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1760?namespace=static-9.0.1_36072-eu"},"name":"Creeping
+        Insanity","id":1760},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1761?namespace=static-9.0.1_36072-eu"},"name":"BONESTORM","id":1761},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1762?namespace=static-9.0.1_36072-eu"},"name":"BONESTORM","id":1762},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1763?namespace=static-9.0.1_36072-eu"},"name":"Slime","id":1763},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1764?namespace=static-9.0.1_36072-eu"},"name":"Cosmic
+        Smash","id":1764},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1765?namespace=static-9.0.1_36072-eu"},"name":"Phase
+        Punch","id":1765},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1772?namespace=static-9.0.1_36072-eu"},"name":"Warning
+        Squawk","id":1772},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1773?namespace=static-9.0.1_36072-eu"},"name":"Falcosaur
+        Swarm!","id":1773},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1786?namespace=static-9.0.1_36072-eu"},"name":"Thunderclap","id":1786},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1787?namespace=static-9.0.1_36072-eu"},"name":"Feral
+        Strike","id":1787},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1796?namespace=static-9.0.1_36072-eu"},"name":"Family
+        Reunion","id":1796},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1797?namespace=static-9.0.1_36072-eu"},"name":"Dumpster
+        Dive","id":1797},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1810?namespace=static-9.0.1_36072-eu"},"name":"Temporal
+        Anomaly","id":1810},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1840?namespace=static-9.0.1_36072-eu"},"name":"Blitz","id":1840},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1860?namespace=static-9.0.1_36072-eu"},"name":"Cannon
+        Shot","id":1860},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1862?namespace=static-9.0.1_36072-eu"},"name":"Flame
+        Shot","id":1862},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1865?namespace=static-9.0.1_36072-eu"},"name":"Frost
+        Shot","id":1865},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1867?namespace=static-9.0.1_36072-eu"},"name":"Arcane
+        Shot","id":1867},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1880?namespace=static-9.0.1_36072-eu"},"name":"Plague
+        Breath","id":1880},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1890?namespace=static-9.0.1_36072-eu"},"name":"Twilight
+        Fire","id":1890},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1895?namespace=static-9.0.1_36072-eu"},"name":"Sniff
+        Out","id":1895},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1905?namespace=static-9.0.1_36072-eu"},"name":"Bend
+        Time","id":1905},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1912?namespace=static-9.0.1_36072-eu"},"name":"Void
+        Portal","id":1912},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1920?namespace=static-9.0.1_36072-eu"},"name":"Clamp","id":1920},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1921?namespace=static-9.0.1_36072-eu"},"name":"Drill
+        Charge","id":1921},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1922?namespace=static-9.0.1_36072-eu"},"name":"Storm
+        Coil","id":1922},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1933?namespace=static-9.0.1_36072-eu"},"name":"Rewind
+        Time","id":1933},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1934?namespace=static-9.0.1_36072-eu"},"name":"Breath","id":1934},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1935?namespace=static-9.0.1_36072-eu"},"name":"ReplaceAbilityThings","id":1935},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1936?namespace=static-9.0.1_36072-eu"},"name":"Warp","id":1936},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1937?namespace=static-9.0.1_36072-eu"},"name":"Fel
+        Exhaust","id":1937},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1938?namespace=static-9.0.1_36072-eu"},"name":"Chaos
+        Beam","id":1938},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1944?namespace=static-9.0.1_36072-eu"},"name":"Retrieve","id":1944},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1945?namespace=static-9.0.1_36072-eu"},"name":"Lick","id":1945},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1954?namespace=static-9.0.1_36072-eu"},"name":"Poison
+        Protocol","id":1954},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1955?namespace=static-9.0.1_36072-eu"},"name":"Flash
+        Freeze","id":1955},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1956?namespace=static-9.0.1_36072-eu"},"name":"Draconic
+        Remedy","id":1956},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1957?namespace=static-9.0.1_36072-eu"},"name":"Reanimate","id":1957},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1958?namespace=static-9.0.1_36072-eu"},"name":"Empowering
+        Strikes","id":1958},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1959?namespace=static-9.0.1_36072-eu"},"name":"Great
+        Cleave","id":1959},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1960?namespace=static-9.0.1_36072-eu"},"name":"Twilight
+        Meteorite","id":1960},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1962?namespace=static-9.0.1_36072-eu"},"name":"Tentacle
+        Stab","id":1962},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1963?namespace=static-9.0.1_36072-eu"},"name":"Wind
+        Buffet","id":1963},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1964?namespace=static-9.0.1_36072-eu"},"name":"Obsidian
+        Bite","id":1964},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1965?namespace=static-9.0.1_36072-eu"},"name":"Frenzy","id":1965},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1966?namespace=static-9.0.1_36072-eu"},"name":"Great
+        Sting","id":1966},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1989?namespace=static-9.0.1_36072-eu"},"name":"Shell
+        Rush","id":1989},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/1991?namespace=static-9.0.1_36072-eu"},"name":"Ancient
+        Knowledge","id":1991},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/2009?namespace=static-9.0.1_36072-eu"},"name":"Express
+        Delivery","id":2009},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/2010?namespace=static-9.0.1_36072-eu"},"name":"Snail
+        Mail","id":2010},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/2011?namespace=static-9.0.1_36072-eu"},"name":"Hate
+        Mail","id":2011},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/2012?namespace=static-9.0.1_36072-eu"},"name":"Return
+        to Sender","id":2012},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/2013?namespace=static-9.0.1_36072-eu"},"name":"Package
+        Drop","id":2013},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/2023?namespace=static-9.0.1_36072-eu"},"name":"Junk
+        Mail","id":2023},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/2058?namespace=static-9.0.1_36072-eu"},"name":"Knot
+        of Snakes","id":2058},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/2059?namespace=static-9.0.1_36072-eu"},"name":"Dust
+        Cloud","id":2059},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/2062?namespace=static-9.0.1_36072-eu"},"name":"Sewage
+        Eruption","id":2062},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/2064?namespace=static-9.0.1_36072-eu"},"name":"\"Tea
+        Party\"","id":2064},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/2065?namespace=static-9.0.1_36072-eu"},"name":"Nap
+        Time","id":2065},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/2067?namespace=static-9.0.1_36072-eu"},"name":"Pinch","id":2067},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/2068?namespace=static-9.0.1_36072-eu"},"name":"Face
+        Bite","id":2068},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/2070?namespace=static-9.0.1_36072-eu"},"name":"Aura
+        of Gonk","id":2070},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/2071?namespace=static-9.0.1_36072-eu"},"name":"Roar
+        of the Dead","id":2071},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/2082?namespace=static-9.0.1_36072-eu"},"name":"Gale
+        Slash","id":2082},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/2084?namespace=static-9.0.1_36072-eu"},"name":"Mummy
+        Wrap","id":2084},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/2097?namespace=static-9.0.1_36072-eu"},"name":"Azerite
+        Spike","id":2097},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/2101?namespace=static-9.0.1_36072-eu"},"name":"Swarm
+        of Bees","id":2101},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/2102?namespace=static-9.0.1_36072-eu"},"name":"Void
+        Cyclone","id":2102},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/2113?namespace=static-9.0.1_36072-eu"},"name":"Toxic
+        Bite","id":2113},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/2206?namespace=static-9.0.1_36072-eu"},"name":"Eat
+        the Fly","id":2206},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/2209?namespace=static-9.0.1_36072-eu"},"name":"Burst","id":2209},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/2210?namespace=static-9.0.1_36072-eu"},"name":"Murder
+        the Innocent","id":2210},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/2214?namespace=static-9.0.1_36072-eu"},"name":"Tail
+        Smash","id":2214},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/2223?namespace=static-9.0.1_36072-eu"},"name":"Murder
+        the Innocent","id":2223},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/2232?namespace=static-9.0.1_36072-eu"},"name":"Toxic
+        Spray","id":2232},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/2236?namespace=static-9.0.1_36072-eu"},"name":"Unstable
+        Engineering","id":2236},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/2239?namespace=static-9.0.1_36072-eu"},"name":"Smoke
+        Cloud","id":2239},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/2241?namespace=static-9.0.1_36072-eu"},"name":"Omni
+        Pummel","id":2241},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/2250?namespace=static-9.0.1_36072-eu"},"name":"Akunda''s
+        Wrath","id":2250},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/2251?namespace=static-9.0.1_36072-eu"},"name":"Krag''wa''s
+        Wrath","id":2251},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/2253?namespace=static-9.0.1_36072-eu"},"name":"Shadowmeld","id":2253},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/2255?namespace=static-9.0.1_36072-eu"},"name":"Corrupted
+        Ground","id":2255},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/2258?namespace=static-9.0.1_36072-eu"},"name":"Corrupted
+        Touch","id":2258},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/2283?namespace=static-9.0.1_36072-eu"},"name":"Dragon''s
+        Call","id":2283},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/2288?namespace=static-9.0.1_36072-eu"},"name":"Cluck","id":2288},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/2291?namespace=static-9.0.1_36072-eu"},"name":"Sludge
+        Belch","id":2291},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/2294?namespace=static-9.0.1_36072-eu"},"name":"Soul
+        Steal","id":2294},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/2297?namespace=static-9.0.1_36072-eu"},"name":"Healing
+        Wrap","id":2297},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/2298?namespace=static-9.0.1_36072-eu"},"name":"Raise
+        Ally","id":2298},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/2300?namespace=static-9.0.1_36072-eu"},"name":"Necrotic
+        Bomb","id":2300},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/2308?namespace=static-9.0.1_36072-eu"},"name":"Slime
+        Trail","id":2308},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/2338?namespace=static-9.0.1_36072-eu"},"name":"Vault
+        Drop","id":2338},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/2340?namespace=static-9.0.1_36072-eu"},"name":"Coin
+        Toss","id":2340},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/2341?namespace=static-9.0.1_36072-eu"},"name":"Money
+        Meteor","id":2341},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/2342?namespace=static-9.0.1_36072-eu"},"name":"Overcharge","id":2342},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/2344?namespace=static-9.0.1_36072-eu"},"name":"Mega
+        Jolt","id":2344},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/2346?namespace=static-9.0.1_36072-eu"},"name":"Swipe","id":2346},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/2347?namespace=static-9.0.1_36072-eu"},"name":"Raise
+        Dead","id":2347},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/2348?namespace=static-9.0.1_36072-eu"},"name":"Mass
+        Resurrection","id":2348},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/2349?namespace=static-9.0.1_36072-eu"},"name":"Toxic
+        Fumes","id":2349},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/2353?namespace=static-9.0.1_36072-eu"},"name":"Contagion
+        Strike","id":2353},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/2356?namespace=static-9.0.1_36072-eu"},"name":"Void
+        Nova","id":2356},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/2358?namespace=static-9.0.1_36072-eu"},"name":"Void
+        Crash","id":2358},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/2360?namespace=static-9.0.1_36072-eu"},"name":"Void
+        Tremors","id":2360},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/2361?namespace=static-9.0.1_36072-eu"},"name":"Void
+        Slap","id":2361},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/2376?namespace=static-9.0.1_36072-eu"},"name":"Ray
+        of Hope","id":2376},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/2377?namespace=static-9.0.1_36072-eu"},"name":"Holy
+        Blast","id":2377},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/2378?namespace=static-9.0.1_36072-eu"},"name":"Nova
+        Swarm","id":2378},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/2380?namespace=static-9.0.1_36072-eu"},"name":"Stay
+        a While and Listen","id":2380},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/2381?namespace=static-9.0.1_36072-eu"},"name":"Dark
+        Bolt","id":2381},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/2382?namespace=static-9.0.1_36072-eu"},"name":"Deep
+        in Research","id":2382},{"key":{"href":"https://eu.api.blizzard.com/data/wow/pet-ability/2384?namespace=static-9.0.1_36072-eu"},"name":"Hammer","id":2384}]}'
+    http_version: '1.1'
+    adapter_metadata:
+      effective_url: https://eu.api.blizzard.com/data/wow/pet-ability/index?namespace=static-eu&locale=en_gb
+  recorded_at: Wed, 04 Nov 2020 20:45:47 GMT
+recorded_with: VCR 2.9.3

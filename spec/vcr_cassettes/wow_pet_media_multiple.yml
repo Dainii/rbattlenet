@@ -1,0 +1,117 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://eu.api.blizzard.com/data/wow/media/pet/39?namespace=static-eu&locale=en_gb
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Authorization:
+      - Bearer abcdefghijklmnopqrstuvwxyz01234567
+      Expect:
+      - ''
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Battlenet-Schema-Revision:
+      - '1'
+      Date:
+      - Wed, 04 Nov 2020 20:41:45 GMT
+      Server:
+      - Apache-Coyote/1.1
+      Last-Modified:
+      - Wed, 4 Nov 2020 04:47:04 GMT
+      Battlenet-Namespace:
+      - static-9.0.1_36072-eu
+      vary:
+      - accept-encoding
+      Cache-Control:
+      - public, max-age=86400
+      Battlenet-Schema:
+      - media
+      content-type:
+      - application/json;charset=UTF-8
+      transfer-encoding:
+      - chunked
+      x-trace-traceid:
+      - d212c5cc-9e84-3aab-b05d-345487892734
+      x-trace-spanid:
+      - 164331fc-d679-5550-6f38-fa165bc4b3d6
+      x-trace-parentspanid:
+      - 164331fc-d679-5520-6f38-fa165bc4b3d6
+      x-frame-options:
+      - SAMEORIGIN
+      X-Content-Type-Options:
+      - nosniff
+      connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"_links":{"self":{"href":"https://eu.api.blizzard.com/data/wow/media/pet/39?namespace=static-9.0.1_36072-eu"}},"assets":[{"key":"icon","value":"https://render-eu.worldofwarcraft.com/icons/56/inv_pet_mechanicalsquirrel.jpg","file_data_id":656559}],"id":39}'
+    http_version: '1.1'
+    adapter_metadata:
+      effective_url: https://eu.api.blizzard.com/data/wow/media/pet/39?namespace=static-eu&locale=en_gb
+  recorded_at: Wed, 04 Nov 2020 20:41:45 GMT
+- request:
+    method: get
+    uri: https://eu.api.blizzard.com/data/wow/media/pet/40?namespace=static-eu&locale=en_gb
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Authorization:
+      - Bearer EU4Ng6K5Cd8jhIzjekBe1PG3zfSD0pGtXO
+      Expect:
+      - ''
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Battlenet-Schema-Revision:
+      - '1'
+      Date:
+      - Wed, 04 Nov 2020 20:41:45 GMT
+      Server:
+      - Apache-Coyote/1.1
+      Last-Modified:
+      - Wed, 4 Nov 2020 04:47:04 GMT
+      Battlenet-Namespace:
+      - static-9.0.1_36072-eu
+      vary:
+      - accept-encoding
+      Cache-Control:
+      - public, max-age=86400
+      Battlenet-Schema:
+      - media
+      content-type:
+      - application/json;charset=UTF-8
+      transfer-encoding:
+      - chunked
+      x-trace-traceid:
+      - dc10c01a-c09b-3984-9b4b-9751460160a9
+      x-trace-spanid:
+      - 164332ef-f75a-0990-c94b-fa165beec8f6
+      x-trace-parentspanid:
+      - 164332ef-f75a-0960-c94b-fa165beec8f6
+      x-frame-options:
+      - SAMEORIGIN
+      X-Content-Type-Options:
+      - nosniff
+      connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"_links":{"self":{"href":"https://eu.api.blizzard.com/data/wow/media/pet/40?namespace=static-9.0.1_36072-eu"}},"assets":[{"key":"icon","value":"https://render-eu.worldofwarcraft.com/icons/56/inv_pet_cats_bombaycat.jpg","file_data_id":656575}],"id":40}'
+    http_version: '1.1'
+    adapter_metadata:
+      effective_url: https://eu.api.blizzard.com/data/wow/media/pet/40?namespace=static-eu&locale=en_gb
+  recorded_at: Wed, 04 Nov 2020 20:41:45 GMT
+recorded_with: VCR 2.9.3
