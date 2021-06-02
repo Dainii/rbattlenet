@@ -4,7 +4,7 @@ module RBattlenet
       def self.path(params)
         # Params should be an ash that look like this
         # { '_page': 1, '_pageSize': 100, 'orderby': 'field', filters: { 'filed1': 'value', 'field2': 'value'}}
-        RBattlenet.uri("/data/wow/search/creature?#{build_query(params)}namespace=static-")
+        RBattlenet.uri("data/wow/search/creature?#{build_query(params)}namespace=static-")
       end
 
       def self.build_query(params)
